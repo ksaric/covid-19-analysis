@@ -21,6 +21,7 @@ conda install -c conda-forge jupyterlab
 conda install numpy pandas
 conda install plotly seaborn
 conda install pymc3
+conda install widgetsnbextension
 ```
 3. Update the datasource with `git submodule update --init --recursive` or `git submodule update --recursive --remote`
 4. Run with `jupyter notebook`
